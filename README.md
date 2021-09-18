@@ -18,14 +18,14 @@ first minute
 second hour
 second minute
 
-create constant called lengthOfHour with value of 60
-create constant called lengthOfDay with value 24
+create constant called lengthOfHourInMinutes with value of 60
+create constant called lengthOfDayInHours with value 24
 create var hourDifference of type int with value of 0
 create var minuteDifference of type int with value of 0
 
 to compute hour difference:
 
-if firstHour is greater than secondHour, then the hourDifference is the absolute value of firstHour minus lengthOfDay, then add secondHour to that value
+if firstHour is greater than secondHour, then the hourDifference is lengthOfDayInHours minus firstHour, then add secondHour to that value
 
 else, hourDifference is equal to absolute value of secondHour minus firstHour
 
