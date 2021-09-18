@@ -27,7 +27,7 @@ to compute hour difference:
 
 if firstHour is greater than secondHour, then the hourDifference is lengthOfDayInHours minus firstHour, then add secondHour to that value
 
-else, hourDifference is equal to absolute value of secondHour minus firstHour
+else, hourDifference is equal to secondHour minus firstHour
 
 
 to compute minute difference:
