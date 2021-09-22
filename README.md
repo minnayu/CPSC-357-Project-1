@@ -3,10 +3,14 @@
 # Problem #1 Pseudocode
 
 Function to check if a number is prime or not 
+create boolean var isNumberPrime that is changed to true/false depending on the output
 
-check if number is greater than 1 
-iterate through numbers ranging from 2 up until the inputted number and check if the inputted number can be evenly divisible by each number in the range 
-return the boolean by && both statements
+to check if a number is prime:
+for every i from 2 up until the specified number,
+check if number is evenly divisible by each i
+if evenly divisible, set isNumberPrime to false, because number is not prime, and break out of the loop
+else, set isNumberPrime to true because the number is not evenly divisible by any number up until itself
+
 
 # Problem #2 Pseudocode
 
